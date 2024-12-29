@@ -1,0 +1,35 @@
+.image-manager {
+  max-width: 600px;
+  margin: auto;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-item img {
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+.image-item button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-item button:hover {
+  background-color: #c0392b;
+}
