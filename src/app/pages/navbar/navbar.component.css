@@ -1,11 +1,19 @@
 
-
 #navbar {
   transition: background-color 0.5s, box-shadow 0.5s, transform 0.5s;
+  background-color: #00177D;
 }
 
 .navbar.scrolled {
   background-color: rgba(1, 14, 116, 0.9); /* Cor com opacidade */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra sutil */
   transform: translateY(-5px); /* Elevação sutil */
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-item{
+  font-size: 20px;
 }

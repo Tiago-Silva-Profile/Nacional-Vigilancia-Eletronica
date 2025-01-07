@@ -1,0 +1,23 @@
+.container {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.list-unstyled i {
+  margin-right: 10px;
+}
+
+ul.d-flex.gap-4 li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+iframe {
+  border: 0;
+  border-radius: 8px;
+}
