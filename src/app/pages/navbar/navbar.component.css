@@ -1,7 +1,7 @@
 
 #navbar {
   transition: background-color 0.5s, box-shadow 0.5s, transform 0.5s;
-  background-color: #00177D;
+  background-color: #000166;
 }
 
 .navbar.scrolled {

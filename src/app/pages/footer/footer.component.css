@@ -1,0 +1,14 @@
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #000166;
+}
+
+footer .fab {
+  transition: color 0.3s ease;
+}
+
+footer .fab:hover {
+  color: #ffc107; /* Cor dourada ao passar o mouse */
+}
