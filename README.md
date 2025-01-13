@@ -60,4 +60,5 @@ For more information on using the Angular CLI, including detailed command refere
 
 
 ## github pages
+ng build --output-path docs --base-href Nacional-Vigilancia-Eletronica
 ng build --output-path docs --base-href Nacional-Vigilancia-Eletronica --source-map
