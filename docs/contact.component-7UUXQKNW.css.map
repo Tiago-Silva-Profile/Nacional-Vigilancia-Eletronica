@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/contact/contact.component.css"],
-  "sourcesContent": [".container {\r\n  border-radius: 8px;\r\n  padding: 20px;\r\n}\r\n\r\nh2 {\r\n  font-weight: bold;\r\n}\r\n\r\n.list-unstyled i {\r\n  margin-right: 10px;\r\n}\r\n\r\nul.d-flex.gap-4 li a {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 8px;\r\n}\r\n\r\niframe {\r\n  border: 0;\r\n  border-radius: 8px;\r\n}\r\n"],
-  "mappings": "AAAA,CAAC,UAAD,cACiB,IADjB,QAEW,IACX,CAEA,GACE,YAAa,GACf,CAEA,CAAC,cAAc,EACb,aAAc,IAChB,CAEA,EAAE,CAAC,MAAM,CAAC,MAAM,GAAG,EACjB,QAAS,KACT,YAAa,OACb,IAAK,GACP,CAEA,OACE,OAAQ,EApBV,cAqBiB,GACjB",
-  "names": []
-}
