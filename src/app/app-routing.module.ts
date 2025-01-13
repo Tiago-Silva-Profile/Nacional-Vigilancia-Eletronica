@@ -11,11 +11,11 @@ import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: '#/contact', component: ContactComponent },
-  { path: '#/about', component: AboutComponent },
-  { path: '#/image', component: ImageManagerComponent },
-  { path: '#/service', component: ServicesComponent },
-  { path: '#/login', component: LoginComponent },
+  { path: '/#/contact', component: ContactComponent },
+  { path: '/#/about', component: AboutComponent },
+  { path: '/#/image', component: ImageManagerComponent },
+  { path: '/#/service', component: ServicesComponent },
+  { path: '/#/login', component: LoginComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
