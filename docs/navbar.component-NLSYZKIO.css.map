@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/navbar/navbar.component.css"],
+  "sourcesContent": ["\r\n#navbar {\r\n  transition: background-color 0.5s, box-shadow 0.5s, transform 0.5s;\r\n  background-color: #000166;\r\n}\r\n\r\n.navbar.scrolled {\r\n  background-color: rgba(1, 14, 116, 0.9); /* Cor com opacidade */\r\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra sutil */\r\n  transform: translateY(-5px); /* Eleva\u00E7\u00E3o sutil */\r\n}\r\n\r\n.nav-link{\r\n  color: white;\r\n}\r\n\r\n.nav-item{\r\n  font-size: 20px;\r\n}\r\n"],
+  "mappings": "AACA,CAAC,OACC,WAAY,iBAAiB,GAAI,CAAE,WAAW,GAAI,CAAE,UAAU,IAC9D,iBAAkB,OACpB,CAEA,CALC,MAKM,CAAC,SACN,iBAAkB,UAClB,WAAY,EAAE,IAAI,IAAI,UACtB,UAAW,WAAW,KACxB,CAEA,CAAC,SACC,MAAO,IACT,CAEA,CAAC,SACC,UAAW,IACb",
+  "names": []
+}

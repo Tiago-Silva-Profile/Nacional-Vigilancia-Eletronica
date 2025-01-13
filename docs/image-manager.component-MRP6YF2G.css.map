@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/image-manager/image-manager.component.css"],
+  "sourcesContent": [".image-manager {\r\n  max-width: 600px;\r\n  margin: auto;\r\n}\r\n\r\n.image-list {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  gap: 10px;\r\n}\r\n\r\n.image-item {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n.image-item img {\r\n  max-width: 100px;\r\n  border-radius: 5px;\r\n}\r\n\r\n.image-item button {\r\n  margin-top: 5px;\r\n  padding: 5px 10px;\r\n  background-color: #e74c3c;\r\n  color: white;\r\n  border: none;\r\n  border-radius: 5px;\r\n  cursor: pointer;\r\n}\r\n\r\n.image-item button:hover {\r\n  background-color: #c0392b;\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,cACC,UAAW,MADb,OAEU,IACV,CAEA,CAAC,WACC,QAAS,KACT,UAAW,KACX,IAAK,IACP,CAEA,CAAC,WACC,QAAS,KACT,eAAgB,OAChB,YAAa,MACf,CAEA,CANC,WAMW,IACV,UAAW,MAlBb,cAmBiB,GACjB,CAEA,CAXC,WAWW,OACV,WAAY,IAvBd,QAwBW,IAAI,KACb,iBAAkB,QAClB,MAAO,KACP,OAAQ,KA3BV,cA4BiB,IACf,OAAQ,OACV,CAEA,CArBC,WAqBW,MAAM,OAChB,iBAAkB,OACpB",
+  "names": []
+}
