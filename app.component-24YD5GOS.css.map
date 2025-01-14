@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.css"],
+  "sourcesContent": [".nav{\r\n  margin-bottom: 8rem;\r\n  background-color: #00177D;\r\n}\r\n\r\n"],
+  "mappings": "AAAA,CAAC,IACC,cAAe,KACf,iBAAkB,OACpB",
+  "names": []
+}

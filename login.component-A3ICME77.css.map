@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/login/login.component.css"],
+  "sourcesContent": [":root {\r\n  --primary-color: #010E74;\r\n  --secondary-color: #FFCC00;\r\n  --success-color: #019934;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  font-family: Arial, sans-serif;\r\n  background-color: var(--primary-color);\r\n}\r\n\r\n.card {\r\n  border: none;\r\n  border-radius: 10px;\r\n}\r\n\r\nbutton:hover {\r\n  background-color: var(--success-color);\r\n  color: white;\r\n}\r\n"],
+  "mappings": "AAAA,MACE,iBAAiB,QACjB,mBAAmB,QACnB,iBAAiB,OACnB,CAEA,KANA,OAOU,EACR,YAAa,KAAK,CAAE,WACpB,iBAAkB,IAAI,gBACxB,CAEA,CAAC,KACC,OAAQ,KAbV,cAciB,IACjB,CAEA,MAAM,OACJ,iBAAkB,IAAI,iBACtB,MAAO,IACT",
+  "names": []
+}
