@@ -64,4 +64,6 @@ ng build --base-href "/Nacional-Vigilancia-Eletronica/"
 ng build --output-path docs --base-href Nacional-Vigilancia-Eletronica
 ng build --output-path docs --base-href Nacional-Vigilancia-Eletronica --source-map
 
-$ npx angular-cli-ghpages --dir=docs
+
+ng build --output-path docs --base-href --source-map
+npx angular-cli-ghpages --dir=docs
