@@ -67,7 +67,6 @@ ng build --output-path docs --base-href Nacional-Vigilancia-Eletronica --source-
 
 ng build --output-path docs --base-href --source-map
 npx angular-cli-ghpages --dir=docs
-ng add @nguniversal/express-engine
 
 
 
