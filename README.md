@@ -65,11 +65,12 @@ ng build --output-path docs --base-href Nacional-Vigilancia-Eletronica
 ng build --output-path docs --base-href Nacional-Vigilancia-Eletronica --source-map
 
 
-ng build --output-path docs --base-href --source-map
+ng build --output-path docs --base-href / --source-map
 npx angular-cli-ghpages --dir=docs
 
 
-
-## Gemini
-
-ng build --configuration=production
+##Docker
+##build: 
+docker build --no-cache -t national-vigilancia-eletronica .
+##Run
+docker run -d -p 8080:80 national-vigilancia-eletronica
