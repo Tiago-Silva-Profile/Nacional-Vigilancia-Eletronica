@@ -74,3 +74,4 @@ npx angular-cli-ghpages --dir=docs
 docker build --no-cache -t national-vigilancia-eletronica .
 ##Run
 docker run -d -p 8080:80 national-vigilancia-eletronica
+
