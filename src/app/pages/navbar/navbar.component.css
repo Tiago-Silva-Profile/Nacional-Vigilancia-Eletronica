@@ -1,23 +1,27 @@
-
 #navbar {
   transition: background-color 0.5s, box-shadow 0.5s, transform 0.5s;
   background-color: #000166;
 }
 
 .navbar.scrolled {
-  background-color: rgba(1, 14, 116, 0.9); /* Cor com opacidade */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra sutil */
-  transform: translateY(-5px); /* Elevação sutil */
+  background-color: rgba(1, 14, 116, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
 }
 
-.nav-link{
+.nav-link {
   color: white;
+  transition: color 0.3s;
 }
 
-.nav-item{
+.nav-link:hover {
+  color: #ffc107;
+}
+
+.nav-item {
   font-size: 20px;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
