@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/footer/footer.component.css"],
-  "sourcesContent": ["footer {\r\n  position: relative;\r\n  bottom: 0;\r\n  width: 100%;\r\n  background-color: #000166;\r\n}\r\n\r\nfooter .fab {\r\n  transition: color 0.3s ease;\r\n}\r\n\r\nfooter .fab:hover {\r\n  color: #ffc107; /* Cor dourada ao passar o mouse */\r\n}\r\n"],
-  "mappings": "AAAA,OACE,SAAU,SACV,OAAQ,EACR,MAAO,KACP,iBAAkB,OACpB,CAEA,OAAO,CAAC,IACN,WAAY,MAAM,IAAK,IACzB,CAEA,OAAO,CAJC,GAIG,OACT,MAAO,OACT",
-  "names": []
-}

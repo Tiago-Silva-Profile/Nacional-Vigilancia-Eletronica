@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/services/services.component.css"],
+  "sourcesContent": [".img-fluid{\r\n  width: 60%;\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,UACC,MAAO,GACT",
+  "names": []
+}

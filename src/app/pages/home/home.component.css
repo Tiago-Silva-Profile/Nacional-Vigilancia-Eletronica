@@ -44,3 +44,8 @@ h2, h3 {
   height: 100%;
   object-fit: cover; /* Faz o vídeo preencher todo o espaço */
 }
+
+.card-container{
+  display: flex;
+  justify-content: center;
+}

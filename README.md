@@ -75,3 +75,21 @@ docker build --no-cache -t national-vigilancia-eletronica .
 ##Run
 docker run -d -p 8080:80 national-vigilancia-eletronica
 
+## Adicionar o arquivo .htaccess dentro do docs para poder gerar corretamente na hostiger
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Defina o diretório base (mude conforme necessário)
+  RewriteBase /
+
+  # Permita acesso ao index.html
+  RewriteRule ^index\.html$ - [L]
+
+  # Redirecione qualquer requisição que não seja um arquivo ou diretório existente para index.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+## 
